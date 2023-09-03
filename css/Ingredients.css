@@ -1,0 +1,101 @@
+/*open and close tab*/
+.open_Tab {
+  height: 200vh;
+  /*top: 150px;*/
+  left: 0;
+  z-index: 9999999999;
+  display: flex;
+  white-space: nowrap;
+  background-color: #ffffff;
+
+}
+
+.open_box {
+  /*padding: 10px;*/
+  width: 40vh;
+  background-color: black;
+  height: 100vh;
+  position: relative;
+}
+
+
+.open_Tab .btn_open i {
+  color: rgb(5, 5, 5);
+  padding: 20px;
+  cursor: pointer;
+}
+
+.open_box ul li {
+  font-size: 25px;
+  /*margin: 30px;*/
+  text-align: start;
+  padding: 5px;
+
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn_open {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 200px;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  padding: 8px;
+  margin-top: 30px;
+}
+
+.icons {
+  padding: 5px;
+  cursor: pointer;
+
+}
+
+.social {
+  margin-top: 200px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.footer-i {
+  margin-top: 170px;
+  cursor: pointer;
+}
+
+.footer {
+  display: block;
+  padding: 4px;
+  cursor: pointer;
+
+}
+
+body {
+  background-color: black;
+}
+
+.card {
+  cursor: pointer;
+  background: none;
+}
+
+.line-clamp {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.card .Ing_icon i {
+  padding: 40px;
+  font-size: 70px;
+}
